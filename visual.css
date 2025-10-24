@@ -996,3 +996,21 @@ footer {
         padding: 0 1rem;
     }
 }
+
+/* Estilos para video de producto (reutiliza wrapper responsivo) */
+.product-video-section {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.product-video-section h3 {
+    color: var(--accent);
+    margin-bottom: 0.75rem;
+}
+
+.video-wrapper.product-video {
+    max-width: 720px;
+    margin: 0 auto;
+}
